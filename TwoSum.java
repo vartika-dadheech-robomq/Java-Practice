@@ -6,6 +6,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> num = new HashMap<Integer, Integer>();
+        int new_add =12;
         int[] arr = new int[2];
         for(int i = 0; i<nums.length; i++) {
             if (num.containsKey(target-nums[i])) {

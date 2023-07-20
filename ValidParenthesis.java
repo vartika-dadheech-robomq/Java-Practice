@@ -18,6 +18,8 @@ Input: s = "()[]{}"
 Output: true
  */
 
+//learning git commands
+
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
